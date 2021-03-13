@@ -1,17 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+div {
+  display: block;
+}
+
+body {
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-family: Arial;
     font-size: 0.8rem;
     font-weight: 400;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 1);
+    line-height: 19.2px;
     margin: 0;
 }
+
 body::before {
     content: '';
     position: fixed;
@@ -23,8 +29,8 @@ body::before {
     background: rgba(0, 0, 1, 0.3);
     background-image: linear-gradient(
         115deg,
-        rgba(4, 10, 6, 0.6),
-        rgba(18, 163, 135, 0.5)),url(https://www.wearemarketing.com/uploads/media/default/0001/21/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg);
+        rgba(5, 11, 6, 0.6),
+        rgba(19, 165, 137, 0.5)),url(https://www.wearemarketing.com/uploads/media/default/0001/21/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,33 +39,51 @@ body::before {
 #title {
     text-align: center;
     font-weight: 400;
+    font-size: 2.8em;
     line-height: 1.2;
 }
 
 #description {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-size: 1.8em;
 }
 
-p{
+p {
     font-size: 1.3rem;
-}
-
-h1, p{
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
+
 label{
     display: flex;
     align-items: center;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    cursor: default;
 }
 
-input, button, select, textarea{
+input, button, select, textarea {
     margin: 0;
     font-family: inherit;
-    font-size: inherit;
     line-height: inherit;
+  
+}
+
+input, select, textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align: start;
+    text-indent: 0px;
+    text-shadow: none;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
 }
 
 button{
@@ -102,17 +126,13 @@ button{
   
   .text-center {
     text-align: center;
-    /* color: var(--blanco); */
     font-weight: bold;
     font-style: italic;
   }
   
-  /* form */
-  
   form {
-    background: rgba(0, 64, 84, 0.6);
-    padding: 2.5rem 0.625rem;
-    border-radius: 0.25rem;
+    background: rgba(0, 69, 105, 0.8);
+    border-radius: 1.25rem;
   }
   
   @media (min-width: 480px) {
