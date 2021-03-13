@@ -4,26 +4,34 @@
     padding: 0;
 }
 
+body {
+    display: block;
+    background-position: center;
+    background-image: url(https://www.wearemarketing.com/uploads/media/default/0001/21/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg);
+    background-repeat: no-repeat;
+    position: static;
+    width: 1349px;
+    height: 1349px;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+
 .container { 
+   display: block;
+   box-sizing: border-box;
    width: 100%;
-   margin: 3.125rem auto 0 auto;
-   background-color:none;
    text-align: justify;
    font-size: 16px;
    line-height: 22.4px;
-   margin-bottom: 0px;
-   margin-left: 314.5px;
-   margin-right: 314.5px;
-   margin-top: 50px;
+   padding: 0;
+   margin: 50px 300px 10px 300px;
    max-width: 720px;
+   color: white;
+
 }
 
 div {
-    display: block;
-}
-
-body {
-    margin: 0;
     display: block;
 }
 
@@ -49,7 +57,7 @@ p {
 form {
     padding: 2.5rem;
     border-radius: 0.25rem;
-    background-color:  rgba(0, 0, 0, 0.4);
+    background-color:  rgba(186, 44, 44, 0.9);
     display: block;
     margin-top: 0em;
 
