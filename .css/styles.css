@@ -95,6 +95,29 @@ button{
     margin: 3.2rem auto 0 auto;
 }
 
+@media (max-width: 490px) {
+    .container {
+      max-width: 90%;
+    }
+
+    form {
+      padding: 10px;
+    }
+
+    #title {
+      padding: 5px;
+    }
+
+    #description {
+      padding: 5px;
+    }
+
+    form {
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+}
+
 @media (min-width: 576px) {
     .container {
       max-width: 540px;
